@@ -1,0 +1,92 @@
+interactions:
+- request:
+    body: '{"password":"Onlyocean1","context":null,"username":"okta-test-user2@mailinator.com","relayState":null}'
+    headers:
+      Accept: [application/json]
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      Content-Length: ['102']
+      Content-Type: [application/json]
+      User-Agent: [python-requests/2.18.4]
+    method: POST
+    uri: https://dev-513447-admin.oktapreview.com/api/v1/authn
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA6VS0XLaMBD8lY6eAcsmFOqnkkBSUgItpc0MnQxzyOdYRZYcSYZShn/vidC06XTa
+        h/rF1vpu93ZPe+Y8eJybNWqWMs7rT24q+9fn/fXFttfj+VulJpN6rFfutn3dHUKycvOlXQjWYPi1
+        khZd31NjwuNek8dN3p3HL9MkSTtJi3O+oLIgUDuqubnsL2fD9x9Hs+GA8CWWK8wyzFi6Z7VDG96S
+        TmGK7EvRyx5yI26hU3/jRZcaKnBua2x2UYC+D23PVDtp+1Xa5j9UK2tyqTBwKnMvgzmz9tD06Hwz
+        qCWvS5BKavDGtoQpSSCX1vkJlNTFrkHjC8IUPEEDgwEwAgIvo8AazMsSF0aHc79EKwVEY+OWfRpQ
+        oWOHA7GCIAkK4PPJXp17shdXDzgTl+DerB/tPdbNd1Ug82EhqTO534LF1BtfhQSs2cgsJMWuptOr
+        8ZCwDerM2NPUT+gv9oXFDLWXoEYhs3+kQAMvKZU1zbsnbivzXfgqLObUXHhfuTSKMtw0O3H77Kzb
+        CnyVxY3EbYgxgkpGmziC2hc6OnmP/mQ5OrE3WCG1P+qBUmZLQbF30w9zdneg545cGyXFcYrj/xmW
+        4ebYAWkKysrbGhvMPkPHMsewmpG+kbqmnbOU/15zvhtgDrWi65uDchh29dO6AC1Q/Yf1E8Hf3X0H
+        hj1lO38DAAA=
+    headers:
+      Cache-Control: ['no-cache, no-store']
+      Connection: [Keep-Alive]
+      Content-Encoding: [gzip]
+      Content-Type: [application/json;charset=UTF-8]
+      Date: ['Sun, 07 Jan 2018 16:17:52 GMT']
+      Expires: ['0']
+      Keep-Alive: ['timeout=5, max=100']
+      P3P: [CP="HONK"]
+      Pragma: [no-cache]
+      Public-Key-Pins-Report-Only: ['pin-sha256="jZomPEBSDXoipA9un78hKRIeN/+U4ZteRaiX8YpWfqc=";
+          pin-sha256="axSbM6RQ+19oXxudaOTdwXJbSr6f7AahxbDHFy3p8s8="; pin-sha256="SE4qe2vdD9tAegPwO79rMnZyhHvqj3i5g1c2HkyGUNE=";
+          pin-sha256="ylP0lMLMvBaiHn0ihLxHjzvlPVQNoyQ+rMiaj0da/Pw="; max-age=60; report-uri="https://okta.report-uri.io/r/default/hpkp/reportOnly"']
+      Server: [nginx]
+      Set-Cookie: ['sid=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/', JSESSIONID=29A0405EA41D6FA4F9B7233C0388BCA1;
+          Path=/]
+      Strict-Transport-Security: [max-age=315360000]
+      Vary: [Accept-Encoding]
+      X-Okta-Request-Id: [WlJIMJ1HMGiSNHZecMlZEQAAAJU]
+      X-Rate-Limit-Limit: ['500']
+      X-Rate-Limit-Remaining: ['497']
+      X-Rate-Limit-Reset: ['1515341888']
+    status: {code: 200, message: OK}
+- request:
+    body: '{"stateToken":"00uVsOiAJBAkCw880fKllNNuLnbsW3J7Ea2bsT_rZc","relayState":null,"passCode":"421423"}'
+    headers:
+      Accept: [application/json]
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      Content-Length: ['97']
+      Content-Type: [application/json]
+      User-Agent: [python-requests/2.18.4]
+    method: POST
+    uri: https://dev-513447-admin.oktapreview.com/api/v1/authn/factors/uftdjh1pqeRcFasHk0h7/verify
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA1VPyU7DMBD9FeRzU5xE3XIiDVwQQkhJ6XKpTDxtnDqe4HFU1Ip/x1YFEnMZvad5
+        y1wZfPXKAuWOZSzh8TziccRnVTzNkiSbpGPO+Y6NGDnhBvI35aoonsoyUECk0FR4AnMTx/HWLdv1
+        umqb6uKkedsoHdl0tUn1rhzel9v+XC1yS8tpae3Mnfdipb3RHroPkBIky65sILBhK48Y54Nsm7n8
+        PGC9FpPhwpuZF/SC6IxWFo0wxyD713ySpYss5b/Ne4sHpSF4ajyqUBVPTkQOyEUhLXnohNLKCId2
+        XGPnAw7KknsVnVexZ2HgznNa/FGPCIHAWgRf5t8fMac62KEJOO/AqlrcvyDtc19QA7FvPz96QCG3
+        bQEAAA==
+    headers:
+      Cache-Control: ['no-cache, no-store']
+      Connection: [Keep-Alive]
+      Content-Encoding: [gzip]
+      Content-Type: [application/json;charset=UTF-8]
+      Date: ['Sun, 07 Jan 2018 16:17:53 GMT']
+      Expires: ['0']
+      Keep-Alive: ['timeout=5, max=100']
+      P3P: [CP="HONK"]
+      Pragma: [no-cache]
+      Public-Key-Pins-Report-Only: ['pin-sha256="jZomPEBSDXoipA9un78hKRIeN/+U4ZteRaiX8YpWfqc=";
+          pin-sha256="axSbM6RQ+19oXxudaOTdwXJbSr6f7AahxbDHFy3p8s8="; pin-sha256="SE4qe2vdD9tAegPwO79rMnZyhHvqj3i5g1c2HkyGUNE=";
+          pin-sha256="ylP0lMLMvBaiHn0ihLxHjzvlPVQNoyQ+rMiaj0da/Pw="; max-age=60; report-uri="https://okta.report-uri.io/r/default/hpkp/reportOnly"']
+      Server: [nginx]
+      Set-Cookie: ['sid=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/', JSESSIONID=1D14AA4D4BE2A3D182CFB276FAD8A8EC;
+          Path=/]
+      Strict-Transport-Security: [max-age=315360000]
+      Vary: [Accept-Encoding]
+      X-Okta-Request-Id: [WlJIMG5tVaggG@2Tuw@cqgAAAZ0]
+      X-Rate-Limit-Limit: ['500']
+      X-Rate-Limit-Remaining: ['496']
+      X-Rate-Limit-Reset: ['1515341888']
+    status: {code: 200, message: OK}
+version: 1

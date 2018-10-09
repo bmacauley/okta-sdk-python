@@ -1,0 +1,36 @@
+interactions:
+- request:
+    body: '{"context":null,"password":"xxxx","username":"okta-test-user1@mailinator.com","relayState":null}'
+    headers:
+      Accept: [application/json]
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      Content-Length: ['96']
+      Content-Type: [application/json]
+      User-Agent: [python-requests/2.18.4]
+    method: POST
+    uri: https://dev-513447-admin.oktapreview.com/api/v1/authn
+  response:
+    body: {string: '{"errorCode":"E0000004","errorSummary":"Authentication failed","errorLink":"E0000004","errorId":"oae7sD0FLfzTJ6rux_AsAgOcQ","errorCauses":[]}'}
+    headers:
+      Cache-Control: ['no-cache, no-store']
+      Connection: [Keep-Alive]
+      Content-Type: [application/json]
+      Date: ['Sun, 07 Jan 2018 15:00:02 GMT']
+      Expires: ['0']
+      Keep-Alive: ['timeout=5, max=100']
+      P3P: [CP="HONK"]
+      Pragma: [no-cache]
+      Public-Key-Pins-Report-Only: ['pin-sha256="jZomPEBSDXoipA9un78hKRIeN/+U4ZteRaiX8YpWfqc=";
+          pin-sha256="axSbM6RQ+19oXxudaOTdwXJbSr6f7AahxbDHFy3p8s8="; pin-sha256="SE4qe2vdD9tAegPwO79rMnZyhHvqj3i5g1c2HkyGUNE=";
+          pin-sha256="ylP0lMLMvBaiHn0ihLxHjzvlPVQNoyQ+rMiaj0da/Pw="; max-age=60; report-uri="https://okta.report-uri.io/r/default/hpkp/reportOnly"']
+      Server: [nginx]
+      Set-Cookie: ['sid=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/', JSESSIONID=BE85D985738E6A6FE15AEB9C4177B087;
+          Path=/]
+      X-Okta-Request-Id: [WlI18rKUpsmPDEJGRf5z7wAADqE]
+      X-Okta-backend: [op1-apiapp03e.aue1s.internal]
+      X-Rate-Limit-Limit: ['500']
+      X-Rate-Limit-Remaining: ['498']
+      X-Rate-Limit-Reset: ['1515337262']
+    status: {code: 401, message: Unauthorized}
+version: 1

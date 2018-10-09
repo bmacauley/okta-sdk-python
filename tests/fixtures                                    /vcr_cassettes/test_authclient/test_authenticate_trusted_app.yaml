@@ -1,0 +1,46 @@
+interactions:
+- request:
+    body: '{"context":null,"relayState":null,"password":"Totalmanner1","username":"okta-test-user1@mailinator.com"}'
+    headers:
+      Accept: [application/json]
+      Accept-Encoding: ['gzip, deflate']
+      Authorization: [SSWS 00po9bVL_pj6SzDx4AS0aQbWRWE_8BxQkm2SI_V_LK]
+      Connection: [keep-alive]
+      Content-Length: ['104']
+      Content-Type: [application/json]
+      User-Agent: [python-requests/2.18.4]
+    method: POST
+    uri: https://dev-513447-admin.oktapreview.com/api/v1/authn
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA1VP207CQBD9FbPPFGcrUu2T5SKBEGMooPJClnagK22n2dnihfjv7sZo4rxMzsmc
+        y5wFvjfaICdWxCIEeROADCBayn7cu42voQsAG9ERbJVt2d2kq+FwnKaeQmZN9ZKOWP+IpWxfQE/6
+        fPpI4HPRmumB9YiL8JEH+ToYrMek+iu7y+TTfTHHiKanN2e0xWqHeY65iM+iZTR+a4cEQJu/7rNe
+        c6Vni8lzuoAicoJGMb+RyYeFqg9e9q85xGEY96Lf5o2hvS7Re5Z00L4qHa0KLLINfJq8q5Quda0s
+        mW5GlQvYa8P2QVVOJWZU1BeOK9UfNSL0BGXK+wr3fkdYXeGGao+TCo3O1OWceJu4giWy+HLzDUNw
+        DEdtAQAA
+    headers:
+      Cache-Control: ['no-cache, no-store']
+      Connection: [Keep-Alive]
+      Content-Encoding: [gzip]
+      Content-Type: [application/json;charset=UTF-8]
+      Date: ['Sun, 07 Jan 2018 16:44:50 GMT']
+      Expires: ['0']
+      Keep-Alive: ['timeout=5, max=100']
+      P3P: [CP="HONK"]
+      Pragma: [no-cache]
+      Public-Key-Pins-Report-Only: ['pin-sha256="jZomPEBSDXoipA9un78hKRIeN/+U4ZteRaiX8YpWfqc=";
+          pin-sha256="axSbM6RQ+19oXxudaOTdwXJbSr6f7AahxbDHFy3p8s8="; pin-sha256="SE4qe2vdD9tAegPwO79rMnZyhHvqj3i5g1c2HkyGUNE=";
+          pin-sha256="ylP0lMLMvBaiHn0ihLxHjzvlPVQNoyQ+rMiaj0da/Pw="; max-age=60; report-uri="https://okta.report-uri.io/r/default/hpkp/reportOnly"']
+      Server: [nginx]
+      Set-Cookie: ['sid=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/', JSESSIONID=9CC1674734C11980CA0961DE77EF7309;
+          Path=/]
+      Strict-Transport-Security: [max-age=315360000]
+      Vary: [Accept-Encoding]
+      X-Okta-Request-Id: [WlJOgrKUpsmPDEJGRf4GQQAADnk]
+      X-Rate-Limit-Limit: ['500']
+      X-Rate-Limit-Remaining: ['499']
+      X-Rate-Limit-Reset: ['1515343550']
+    status: {code: 200, message: OK}
+version: 1
